@@ -1,0 +1,7 @@
+.centered {
+    width: 100%;
+    min-height: 80dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

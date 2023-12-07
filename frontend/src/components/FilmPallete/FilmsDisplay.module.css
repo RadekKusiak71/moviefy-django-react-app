@@ -1,0 +1,14 @@
+.layout {
+    min-height: 80dvh;
+    height: fit-content;
+    min-width: 700px;
+    max-width: 1500px;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+

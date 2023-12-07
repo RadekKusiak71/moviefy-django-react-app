@@ -1,0 +1,23 @@
+.upper-button {
+    width: 700px;
+    min-width: 400px;
+    max-width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid #aaaaaa;
+    color: #aaaaaa;
+    transition: 0.3s ease-in-out;
+}
+
+.upper-button:hover {
+    border: 1px solid #ffffff;
+    color: #ffffff;
+    width: 750px;
+}
+
+@media (max-width:1450px) {
+    .upper-button {
+        width: 80%;
+    }
+}
