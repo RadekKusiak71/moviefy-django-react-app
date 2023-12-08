@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useLayoutEffect, useState } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import classes from './FilmPage.module.css';
 import { useNavigate, useParams } from 'react-router-dom';
 import { motion } from 'framer-motion'
@@ -40,7 +40,7 @@ const FilmPage = () => {
 
 
 
-    useLayoutEffect(() => {
+    useEffect(() => {
         const fetchFilm = async () => {
             const url = `https://api.themoviedb.org/3/movie/${filmID}?language=en-US`;
             let response = await fetch(url, {
