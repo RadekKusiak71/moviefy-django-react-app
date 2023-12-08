@@ -2,6 +2,11 @@
 
 Moviefy is a web application that allows users to explore movies using the IMDb API, add movies to their watchlist. The app is built using React for the frontend and Django for the backend.
 
+## Page Screens
+![list](https://github.com/RadekKusiak71/moviefy-django-react-app/assets/121208184/b8ff201c-47a2-4bec-9fff-69ae938f656e)
+![Search](https://github.com/RadekKusiak71/moviefy-django-react-app/assets/121208184/07fdeee2-3d39-4200-a0ba-08ce29dd5858)
+![Przechwytywanie](https://github.com/RadekKusiak71/moviefy-django-react-app/assets/121208184/ede8a177-d920-449e-bb31-b2ecddda5407)
+
 ## Features
 
 - **User Authentication:**
